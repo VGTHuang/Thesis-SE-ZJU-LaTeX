@@ -35,7 +35,9 @@
 ### 2.2、 __windows__ （仅在[TexLive2016](http://mirrors.ustc.edu.cn/CTAN/systems/texlive/Images/texlive2016.iso) on windows10 测试）:
 
 首先在环境变量里设置```$HOME```，一般是```C:\Users\<username>```
+
 ```latexmkrc_win```中指定的PDF阅读器为Sumatra PDF，可根据您的使用习惯修改为其他应用程序。
+
 添加或修改 .latexmkrc前，请做好备份。
 
     \> copy latexmkrc_win %HOME%\.latexmkrc
