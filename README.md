@@ -35,13 +35,13 @@
 ### 2.2、 __windows__ （仅在[TexLive2016](http://mirrors.ustc.edu.cn/CTAN/systems/texlive/Images/texlive2016.iso) on windows10 测试）:
 
 首先在环境变量里设置```$HOME```，一般是```C:\Users\<username>```
-
+```latexmkrc_win```中指定的PDF阅读器为Sumatra PDF，可根据您的使用习惯修改为其他应用程序。
 添加或修改 .latexmkrc前，请做好备份。
 
     \> copy latexmkrc_win %HOME%\.latexmkrc
 
 一样使用 latexmk 命令进行编译。
-如果您遇到编译错误，请检查是否正确安装texlive和以上字体包。
+如果您遇到编译错误，请检查是否正确安装texlive和以上字体包。**字体包安装时应选择“为所有用户安装”，否则可能找不到字体包。**
 
 ### 2.3、__Linux__ (TeXLive2016):
 
