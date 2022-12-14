@@ -20,6 +20,8 @@
 - [字体包下载-百度盘](https://pan.baidu.com/s/1kVuF0Fl)
 - [字体包下载-Google Drive](https://drive.google.com/file/d/0ByPSg5LzlAjAcm1oeWx1OGRWeEU/view)
 
+- 此外还需下载**仿宋_GB2312**字体。[下载地址](http://www.cst.zju.edu.cn/_upload/article/files/9d/4f/94bc691c4f99b068f2e49dcca97e/cd07a74a-568d-4b1d-9895-dd30223f2b83.rar)
+
 ### 2.1、 __OS X__ （[MacTeX2016](https://tug.org/mactex/) 不低于 OS X Yosemite 通过）
 
 拷贝 .latexmkrc 到家目录
@@ -44,6 +46,10 @@
 
 一样使用 latexmk 命令进行编译。
 如果您遇到编译错误，请检查是否正确安装texlive和以上字体包。**字体包安装时应选择“为所有用户安装”，否则可能找不到字体包。**
+
+编译过程中如出现报错 ```Package fontspec Error: The fontspec package requires either XeTeX or XeLaTeX``` ，可将编译语句改为
+
+    $ latexmk -xelatex main
 
 ### 2.3、__Linux__ (TeXLive2016):
 
