@@ -139,6 +139,10 @@ windows和Linxu 皆使用 TeXLive 2016 安装
 本人提供一个不得已为之的解法：为此生僻字预留一个em框（可能涉及更动论文模板，请参照修改），
 在论文输出后利用OS X 的 Preview 提供的编辑功能补上该生僻字的文本框。
 
+在Windows 11上可能找不到FangSong_GB2312字体，可在```zjuthesis.cls```字体设置字段加后缀名：
+
+    \setCJKmainfont[AutoFakeBold]{FangSong_GB2312.ttf}
+
 ## 5、许可权和贡献
 
 **MIT** 
